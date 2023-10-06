@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    background-color: aliceblue;
+    color: darkslategrey;
+    font-family: Avenir Next Condensed;
+}
+
+h1{
+    font-size: 60px;
+}
+
+input{
+    width: 100px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+input:first-child:hover{
+    background-color: indianred;
+    color: white;
+}
+
+input:nth-child(2):hover{
+    background-color: palegoldenrod;
+    color: white;
+}
+
+
+input:last-child:hover {
+    background-color: mediumseagreen;
+    color: white;
+}
+
+#count{
+    color:slategrey;
+}
